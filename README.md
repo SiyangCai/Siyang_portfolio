@@ -4,12 +4,16 @@ Welcome to my github page! My name is Siyang Cai. I'm a reasearcher in Leicester
 
 ## [Project 1: Cyclistic Case Study from Google Data Analytics Professional Course](https://siyangcai.github.io/Cyclistic/)
 This is a capstone project from Google Data Analytics Professional Course, which aims to figure out user behaviour with/without membership using data from a bike-sharing company Cyclistic in 2021. The main achievements are:
-* visualizations of the data in weekly and monthly form between casual and annual members.
-* discovery of different using patterns between casual and annual members.
+* visualizations of the data in weekly and monthly form between casual and annual members,
+* discovery of different using patterns between casual and annual members,
 * Four possible solutions are designed to help increase membership subscriptions.
 
 ## [Project 2: Monkeypox data analysis](https://siyangcai.github.io/Monkeypox/)
-
+Monkeypox has become one of the most serious pandemic since early 2022. This project aims to analyse the data from Global Health team to summarize important features in the spread of Monkeypox. I have successfully found:
+* the approximate start time of Monkeypox and the trend in number of confirmations,
+* the top countries with most cases displayed with a global heatmap,
+* the top countries metioned by confirmed cases in their travel history.
+* the most common symptoms of Monkeypox.
 
 ## [Project 3: Classification on posionous and edible mushrooms](https://siyangcai.github.io/ML-mushroom-classification/)
 
