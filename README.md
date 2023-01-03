@@ -31,4 +31,4 @@ This project aims to predict house prices by using machine learning models from 
 * the best model is between Random Forest and XGBboost with a `R2` score as 0.99 
 
 ## [Project 5: Classification on images of car or trucks using CNN](https://siyangcai.github.io/car-or-truck/)
-
+This is a classical deep learning project aiming to classify car and truck images using convolutional neural network. I have construct a deep learning model with 3 CNN layers with data augments, followed by a training process with 80 epochs. I have not observed signs of over-fitting or under-fitting. An satisfying accuracy of 88.84% is then obtained.
