@@ -12,10 +12,14 @@ This is a capstone project from Google Data Analytics Professional Course, which
 Monkeypox has become one of the most serious pandemic since early 2022. This project aims to analyse the data from Global Health team to summarize important features in the spread of Monkeypox. I have successfully found:
 * the approximate start time of Monkeypox and the trend in number of confirmations,
 * the top countries with most cases displayed with a global heatmap,
-* the top countries metioned by confirmed cases in their travel history.
+* the top countries metioned by confirmed cases in their travel history,
 * the most common symptoms of Monkeypox.
 
 ## [Project 3: Classification on posionous and edible mushrooms](https://siyangcai.github.io/ML-mushroom-classification/)
+This project aims to build machine learning models to help classify mushrooms between poisonous or eidble, which used a dataset contains hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms. The main achievements are:
+* comparing results from Logistic Regression, Support Vector Machine (SVM classifier) and a Voting classifer in scikit-learn,
+* cross-validation to avoid random effects on the whole pipeline of preprocessing and ML model.
+* obtain best accuracy of 98.35% in identify poisonous mushrooms.
 
 ## [Project 4: House price prediction](https://siyangcai.github.io/House_price_prediction/)
 
