@@ -19,6 +19,7 @@ Monkeypox has become one of the most serious pandemic since early 2022. This pro
 This project aims to build machine learning models to help classify mushrooms between poisonous or eidble, which used a dataset contains hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms. The main achievements are:
 * comparing results from Logistic Regression, Support Vector Machine (SVM classifier) and a Voting classifer in scikit-learn,
 * cross validation to avoid random effects on the whole pipeline of preprocessing and ML model,
+* parameter tuning to find the best parameters with best accuracy,
 * obtain best accuracy of 98.35% in identify poisonous mushrooms.
 
 ## [Project 4: House price prediction](https://siyangcai.github.io/House_price_prediction/)
@@ -26,6 +27,8 @@ This project aims to predict house prices by using machine learning models from 
 * data cleaning to find some interesting information in the dataset and remove those that are unreasonable,
 * feature engineering to create more feautres that better describe the sale prices,
 * comparing results from Random Forest, Linear Regression, Lasso Regression and XGBoost, with cross validation.
+* using parameter tuning if necessary,
 * the best model is between Random Forest and XGBboost with a `R2` score as 0.99 
 
 ## [Project 5: Classification on images of car or trucks using CNN](https://siyangcai.github.io/car-or-truck/)
+
