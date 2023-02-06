@@ -15,7 +15,7 @@ Monkeypox has become one of the most serious pandemic since early 2022. This pro
 * the top countries metioned by confirmed cases in their travel history,
 * the most common symptoms of Monkeypox.
 
-## [Project 3: Classification on posionous and edible mushrooms](https://siyangcai.github.io/ML-mushroom-classification/)
+## [Project 3: Classification on poisonous and edible mushrooms](https://siyangcai.github.io/ML-mushroom-classification/)
 This project aims to build machine learning models to help classify mushrooms between poisonous or eidble, which used a dataset contains hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms. The main achievements are:
 * comparing results from Logistic Regression, Support Vector Machine (SVM classifier) and a Voting classifer in scikit-learn,
 * cross validation to avoid random effects on the whole pipeline of preprocessing and ML model,
