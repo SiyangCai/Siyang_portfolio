@@ -2,7 +2,7 @@
 
 Welcome to my github page! My name is Siyang Cai. I'm a reasearcher in Leicester University working in the area of data analysis and data sciecne of summary statistics from genome-wide association studies (GWAS). This is a list of my personal data analysis and data science projects as my portfolio.
 
-## [Project 1: UK house price chatbot](https://siyangcai.github.io/UK-house-price-chatbot/)
+## [Project 1: UK house price chatbot](https://github.com/SiyangCai/UK-house-price-chatbot)
 This project is a local full-stack RAG application for UK housing market questions. I used FastAPI for the backend and React for the frontend. The system has two retrieval paths: structured retrieval from HM Land Registry Price Paid Data using DuckDB, and document retrieval from UK House Price Index reports using embeddings and FAISS.
 For structured questions, the app calculates median sale prices, sales counts, date ranges, monthly trends, and area comparisons. For broader market or methodology questions, it retrieves relevant report passages and passes them to a local Ollama model. I also built query routing, geographic resolution, tests, a frontend chat interface, and a demo video.
 - Built a full-stack RAG chatbot using FastAPI, React, Ollama, DuckDB, FAISS, and LangChain.
