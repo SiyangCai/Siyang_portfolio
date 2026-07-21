@@ -24,14 +24,29 @@ The project covers data cleaning, exploratory analysis, preprocessing, model com
 - Identified key churn drivers including contract type, tech support, online security, and payment method.
 -  Deployed and tested real-time inference using AWS SageMaker endpoint.
 
-## [Project 3: Classification on poisonous and edible mushrooms](https://siyangcai.github.io/ML-mushroom-classification/)
+## [Project 3: Fraud detection using PaySim](https://github.com/SiyangCai/PaySim-fraud-detection)
+PaySim Fraud Detection MLOps Project
+Built an end-to-end fraud detection MLOps project using 6.3M PaySim financial transactions, focusing on fraud recall under a controlled false positive rate. The project covers leakage-aware feature selection, model tuning, experiment tracking, automated testing, API serving, Dockerized deployment, and GitHub documentation.
+
+Key achievements:
+
+- Developed a leakage-aware fraud prevention model using only pre-transaction features.
+- Tuned LightGBM with Optuna and selected the operating threshold using validation data.
+- Achieved 99.59% fraud recall with 1.28% false positive rate on the final test set.
+- Improved over the HistGradientBoosting benchmark with higher PR-AUC, better precision, and roughly 1,600 fewer false alerts per 1M transactions.
+- Tracked model experiments, parameters, metrics, thresholds, and artifacts using MLflow.
+- Served the selected model through a FastAPI prediction endpoint.
+- Dockerized the API for reproducible local deployment.
+- Added automated tests covering feature logic, threshold selection, metrics, model loading, and API prediction.
+
+## [Project 4: Classification on poisonous and edible mushrooms](https://siyangcai.github.io/ML-mushroom-classification/)
 This project aims to build machine learning models to help classify mushrooms between poisonous or eidble, which used a dataset contains hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms. The main achievements are:
 * comparing results from Logistic Regression, Support Vector Machine (SVM classifier) and a Voting classifer in scikit-learn,
 * cross validation to avoid random effects on the whole pipeline of preprocessing and ML model,
 * parameter tuning to find the best parameters with best accuracy,
 * obtain best accuracy of 98.35% in identify poisonous mushrooms.
 
-## [Project 4: House price prediction](https://siyangcai.github.io/House_price_prediction/)
+## [Project 5: House price prediction](https://siyangcai.github.io/House_price_prediction/)
 This project aims to predict house prices by using machine learning models from a dataset that includes sale prices for King County in US in 2015. The main achievements in this project are:
 * data cleaning to find some interesting information in the dataset and remove those that are unreasonable,
 * feature engineering to create more feautres that better describe the sale prices,
@@ -39,10 +54,10 @@ This project aims to predict house prices by using machine learning models from 
 * using parameter tuning if necessary,
 * the best model is between Random Forest and XGBboost with a `R2` score as 0.99 
 
-## [Project 5: Classification on images of car or trucks using CNN](https://siyangcai.github.io/car-or-truck/)
+## [Project 6: Classification on images of car or trucks using CNN](https://siyangcai.github.io/car-or-truck/)
 This is a classical deep learning project aiming to classify car and truck images using convolutional neural network. I have constructed a deep learning model with 3 CNN layers with data augments, followed by a training process with 80 epochs. I have not observed signs of over-fitting or under-fitting. An satisfying accuracy of 88.84% is then obtained.
 
-## [Project 6: Cyclistic Case Study from Google Data Analytics Professional Course](https://siyangcai.github.io/Cyclistic/)
+## [Project 7: Cyclistic Case Study from Google Data Analytics Professional Course](https://siyangcai.github.io/Cyclistic/)
 This is a capstone project from Google Data Analytics Professional Course, which aims to figure out user behaviour with/without membership using data from a bike-sharing company Cyclistic in 2021. The main achievements are:
 * visualizations of the data in weekly and monthly form between casual and annual members,
 * discovery of different using patterns between casual and annual members,
